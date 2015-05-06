@@ -10,7 +10,7 @@ public class Human extends Mammal {
 	
 	public String toString() {
 		String output = "";
-		output = "This animal is a " + species + " named " + " and it is " + age + " years old. It has chosen " + career + " as a career path.";
+		output = "This animal is a " + species + " named " + name + " and it is " + age + " years old. It has chosen " + career + " as a career path.";
 		return output;
 	}
 
