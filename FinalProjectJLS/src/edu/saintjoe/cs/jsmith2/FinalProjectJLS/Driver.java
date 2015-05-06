@@ -8,7 +8,7 @@ public class Driver {
 		System.out.println(testMammal.toString());
 		Mammal whale = new Mammal("whale", "Jeffery", 23);
 		System.out.println(whale.toString());
-		Human jared = new Human("Human", "Jared", 19, "Computer Scientist");
+		Human jared = new Human("Human", "Jared", 19, "Computer Science");
 		System.out.println(jared.toString());
 	}
 
