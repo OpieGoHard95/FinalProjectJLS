@@ -7,5 +7,11 @@ public class Human extends Mammal {
 		super(thisSpecies, thisName, thisAge);
 		career = thisCareer;
 	}
+	
+	public String toString() {
+		String output = "";
+		output = "This animal is a " + species + " named " + " and it is " + age + " years old. It has chosen " + career + " as a career path.";
+		return output;
+	}
 
 }
