@@ -7,8 +7,8 @@ public class Mammal {
 
 	Mammal() {
 		species = "No species indicated";
-		name = "unnamed";
-		age = 0;
+		name = "no name";
+		age = 1;
 	}
 	
 	Mammal(String thisSpecies, String thisName, int thisAge) {
@@ -30,7 +30,7 @@ public class Mammal {
 	
 	public String toString() {
 		String output = "";
-		output = "This animal is a " + species + " named " + " and it is " + " years old!";
+		output = "This animal is a " + species + " named " + name + " and it is " + age + " years old!";
 		return output;
 	}
 
